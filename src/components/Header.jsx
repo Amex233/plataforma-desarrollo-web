@@ -9,6 +9,7 @@ function Header() {
 
         <nav className="nav">
           <a href="#inicio">Inicio</a>
+          <a href="#objetivos">¿Qué aprenderás?</a>
           <a href="#recursos">Recursos</a>
           <a href="#herramientas">Herramientas</a>
           <a href="#scrum">Scrum</a>

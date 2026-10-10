@@ -352,9 +352,25 @@ a {
 
 /* RESPONSIVE */
 
+
 @media (max-width: 900px) {
+  .header-content {
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
   .nav {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 18px;
+    width: 100%;
+    padding-bottom: 8px;
+  }
+
+  .nav a {
+    font-size: 0.85rem;
   }
 
   .hero {

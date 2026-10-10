@@ -9,6 +9,7 @@ import Sprints from './components/Sprints'
 import Backlog from './components/Backlog'
 import Scrum from './components/Scrum'
 import Footer from './components/Footer'
+import LearningObjectives from './components/LearningObjectives'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 
       <main>
         <Hero />
+        <LearningObjectives />
         <Resources />
         <Tools />
         <Scrum />
