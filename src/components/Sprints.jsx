@@ -7,12 +7,12 @@ function Sprints() {
       goal: 'Diseño y configuración inicial del proyecto.',
       status: 'Completado',
     },
-    {
-      id: 'Sprint 2',
-      start: '06/09/2026',
-      end: '12/09/2026',
-      goal: 'Desarrollo de componentes y recursos principales.',
-      status: 'En progreso',
+   {
+   id: 'Sprint 2',
+   start: '06/09/2026',
+   end: '12/09/2026',
+   goal: 'Desarrollo de componentes, recursos web y sección de objetivos de aprendizaje.',
+    status: 'Completado',
     },
     {
       id: 'Sprint 3',

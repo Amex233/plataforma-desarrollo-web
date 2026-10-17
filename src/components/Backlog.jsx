@@ -37,6 +37,14 @@ function Backlog() {
       description:
         'Mostrar información adicional de cada tecnología seleccionada.',
     },
+    {
+      id: 'PB-05',
+      title: 'Sección de objetivos de aprendizaje',
+      priority: 'Alta',
+      status: 'Completado',
+      description:
+        'Presentar objetivos de aprendizaje de HTML, CSS, JavaScript y React.',
+    },
   ]
 
   const sprintBacklog = [
@@ -71,6 +79,14 @@ function Backlog() {
       status: 'En progreso',
       description:
         'Integrar información de la metodología Scrum utilizada.',
+    },
+     {
+      id: 'SB-05',
+      title: 'Integrar objetivos de aprendizaje',
+      priority: 'Alta',
+      status: 'Completado',
+      description:
+        'Crear el componente LearningObjectives.jsx e integrarlo con el menú de navegación.',
     },
   ]
 
