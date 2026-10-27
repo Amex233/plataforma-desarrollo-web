@@ -13,6 +13,7 @@ function Header() {
           <a href="#recursos">Recursos</a>
           <a href="#herramientas">Herramientas</a>
           <a href="#scrum">Scrum</a>
+          <a href="#faq">Preguntas frecuentes</a>
           <a href="#backlog">Backlog</a>
           <a href="#sprints">Sprints</a>
           <a href="#documentacion">Documentación</a>

@@ -78,3 +78,22 @@ https://github.com/Amex233/plataforma-desarrollo-web/commits/main
 **Proyecto:** Plataforma de Desarrollo Web
 
 **Estado:** Proyecto en desarrollo.
+
+## Nuevo avance — 26 de octubre de 2026
+
+### Sección de preguntas frecuentes
+
+Se incorporó una sección interactiva de preguntas frecuentes para ayudar a los estudiantes a resolver dudas básicas sobre el desarrollo web.
+
+**Cambios realizados:**
+- Creación del componente `src/components/FAQ.jsx`.
+- Integración de las preguntas frecuentes en `src/App.jsx`.
+- Incorporación del enlace "Preguntas frecuentes" en el menú de navegación.
+- Registro de PB-06 en el Product Backlog.
+- Registro de SB-06 en el Sprint Backlog.
+
+**Funcionalidad:** el usuario puede seleccionar una pregunta para mostrar u ocultar su respuesta.
+
+**Tecnologías utilizadas:** React, JavaScript y JSX.
+
+**Estado:** implementado y revisado en el navegador.

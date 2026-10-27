@@ -45,6 +45,16 @@ function Backlog() {
       description:
         'Presentar objetivos de aprendizaje de HTML, CSS, JavaScript y React.',
     },
+    
+    {
+      id: 'PB-06',
+      title: 'Sección de preguntas frecuentes',
+      priority: 'Media',
+      status: 'Completado',
+      description:
+        'Incorporar preguntas y respuestas interactivas para orientar a los estudiantes sobre el desarrollo web.',
+    },
+
   ]
 
   const sprintBacklog = [
@@ -88,6 +98,16 @@ function Backlog() {
       description:
         'Crear el componente LearningObjectives.jsx e integrarlo con el menú de navegación.',
     },
+    
+    {
+      id: 'SB-06',
+      title: 'Implementar preguntas frecuentes',
+      priority: 'Media',
+      status: 'Completado',
+      description:
+        'Crear FAQ.jsx, integrarlo en App.jsx y agregar su enlace al menú de navegación.',
+    },
+
   ]
 
   const currentBacklog =
