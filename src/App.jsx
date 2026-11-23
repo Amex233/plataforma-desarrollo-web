@@ -1,3 +1,4 @@
+
 import './App.css'
 
 import Header from './components/Header'
@@ -11,6 +12,7 @@ import Scrum from './components/Scrum'
 import Footer from './components/Footer'
 import LearningObjectives from './components/LearningObjectives'
 import FAQ from './components/FAQ'
+import Entrega from './components/Entrega'
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
         <Sprints />
         <Documentation />
         <FAQ />
+        <Entrega />
       </main>
 
       <Footer />

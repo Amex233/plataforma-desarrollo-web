@@ -1,4 +1,9 @@
+
+import { useState } from 'react'
+
 function Header() {
+  const [menuAbierto, setMenuAbierto] = useState(false)
+
   return (
     <header className="header">
       <div className="container header-content">
@@ -18,6 +23,35 @@ function Header() {
           <a href="#sprints">Sprints</a>
           <a href="#documentacion">Documentación</a>
         </nav>
+
+        <div className="menu-entrega">
+          <button
+            className="boton-menu-entrega"
+            onClick={() => setMenuAbierto(!menuAbierto)}
+          >
+            ☰ Menú de entrega
+          </button>
+
+          {menuAbierto && (
+            <div className="menu-entrega-lista">
+              <a href="#actividades" onClick={() => setMenuAbierto(false)}>
+                Actividades realizadas en el curso
+              </a>
+
+              <a href="#sistema" onClick={() => setMenuAbierto(false)}>
+                Sistema implementado
+              </a>
+
+              <a href="#codigo" onClick={() => setMenuAbierto(false)}>
+                Código fuente (comprimido)
+              </a>
+
+              <a href="#reporte" onClick={() => setMenuAbierto(false)}>
+                Reporte de modificaciones
+              </a>
+            </div>
+          )}
+        </div>
       </div>
     </header>
   )
